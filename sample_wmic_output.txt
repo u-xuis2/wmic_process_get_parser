@@ -1,0 +1,95 @@
+Caption=System Idle Process
+CommandLine=
+Name=System Idle Process
+ProcessId=0
+
+
+Caption=System
+CommandLine=
+Name=System
+ProcessId=4
+
+
+Caption=smss.exe
+CommandLine=
+Name=smss.exe
+ProcessId=368
+
+
+Caption=csrss.exe
+CommandLine=%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+Name=csrss.exe
+ProcessId=436
+
+
+Caption=winlogon.exe
+CommandLine=winlogon.exe
+Name=winlogon.exe
+ProcessId=460
+
+
+Caption=services.exe
+CommandLine=C:\Windows\system32\services.exe
+Name=services.exe
+ProcessId=512
+
+
+Caption=lsass.exe
+CommandLine=C:\Windows\system32\lsass.exe
+Name=lsass.exe
+ProcessId=520
+
+
+Caption=svchost.exe
+CommandLine=C:\Windows\system32\svchost.exe -k DcomLaunch
+Name=svchost.exe
+ProcessId=672
+
+
+Caption=svchost.exe
+CommandLine=C:\Windows\system32\svchost.exe -k RPCSS
+Name=svchost.exe
+ProcessId=752
+
+
+Caption=svchost.exe
+CommandLine=C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted
+Name=svchost.exe
+ProcessId=856
+
+
+Caption=svchost.exe
+CommandLine=C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted
+Name=svchost.exe
+ProcessId=1016
+
+
+Caption=svchost.exe
+CommandLine=C:\Windows\system32\svchost.exe -k netsvcs
+Name=svchost.exe
+ProcessId=1080
+
+
+Caption=svchost.exe
+CommandLine=C:\Windows\system32\svchost.exe -k LocalService
+Name=svchost.exe
+ProcessId=1216
+
+
+Caption=svchost.exe
+CommandLine=C:\Windows\system32\svchost.exe -k NetworkService
+Name=svchost.exe
+ProcessId=1284
+
+
+Caption=explorer.exe
+CommandLine=C:\Windows\Explorer.exe
+Name=explorer.exe
+ProcessId=1708
+
+
+Caption=notepad.exe
+CommandLine="C:\Windows\system32\notepad.exe" "C:\Users\test\document.txt"
+Name=notepad.exe
+ProcessId=2048
+
